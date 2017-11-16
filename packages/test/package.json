@@ -24,7 +24,6 @@
   },
   "homepage": "https://github.com/marko-js/marko-util#readme",
   "dependencies": {
-    "@lasso/marko-taglib": "^1.0.6",
     "async": "^2.6.0",
     "browser-refresh-taglib": "^1.1.0",
     "chai": "^4.1.2",
