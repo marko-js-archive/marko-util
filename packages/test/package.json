@@ -1,0 +1,46 @@
+{
+  "name": "@marko/test",
+  "version": "1.0.0",
+  "description": "Testing Marko components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marko-js/marko-util.git"
+  },
+  "keywords": [
+    "marko",
+    "test",
+    "component",
+    "util",
+    "utility"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marko-js/marko-util/issues"
+  },
+  "homepage": "https://github.com/marko-js/marko-util#readme",
+  "dependencies": {
+    "@lasso/marko-taglib": "^1.0.6",
+    "async": "^2.6.0",
+    "browser-refresh-taglib": "^1.1.0",
+    "chai": "^4.1.2",
+    "cheerio": "^1.0.0-rc.2",
+    "child-process-promise": "^2.2.1",
+    "express": "^4.16.2",
+    "lasso": "^2.11.21",
+    "lasso-istanbul-instrument-transform": "0.0.4",
+    "lasso-marko": "^2.3.1",
+    "lasso-require": "^3.4.9",
+    "marko": "^4.5.6",
+    "mocha": "^4.0.1",
+    "object-assign": "^4.1.1",
+    "porti": "^1.0.4",
+    "puppeteer": "^0.10.2",
+    "raptor-renderer": "^1.4.6",
+    "resolve-from": "^4.0.0"
+  }
+}

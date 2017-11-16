@@ -1,0 +1,30 @@
+{
+  "name": "@marko/compile",
+  "version": "1.0.0",
+  "description": "Compile Marko files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marko-js/marko-util.git"
+  },
+  "keywords": [
+    "marko",
+    "compile",
+    "util",
+    "utility"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marko-js/marko-util/issues"
+  },
+  "homepage": "https://github.com/marko-js/marko-util#readme",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "lasso-package-root": "^1.0.1",
+    "resolve-from": "^4.0.0"
+  }
+}
