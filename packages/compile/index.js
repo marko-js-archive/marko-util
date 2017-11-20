@@ -20,7 +20,7 @@ function createIfNotExists(filepath) {
 
 function getPackageRoot(dir) {
   const rootPackage = lassoPackageRoot.getRootPackage(dir);
-  return rootPackage && rootPackage.__dirname;
+  return (rootPackage && rootPackage.__dirname) || dir;
 }
 
 function requireFromRoot(path, packageRoot) {
