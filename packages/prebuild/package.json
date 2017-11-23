@@ -1,0 +1,24 @@
+{
+  "name": "@marko/prebuild",
+  "version": "0.0.2",
+  "description": "Prebuild Marko pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marko-js/marko-util.git"
+  },
+  "keywords": [
+    "marko",
+    "page",
+    "prebuild",
+    "build"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "lasso": "3.0.1-0"
+  }
+}
