@@ -58,6 +58,10 @@ exports.run = function(allTests, options) {
     }
   }
 
+  // Fixes https://github.com/marko-js/marko-util/issues/3. In Mocha 4, the
+  // process does not force exit by default without this flag.
+  spawnArgs.push('--exit');
+
   return spawn(mochaBin, spawnArgs, {
     cwd: dir,
     env,
