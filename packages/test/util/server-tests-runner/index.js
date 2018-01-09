@@ -20,8 +20,14 @@ function convertMochaConfigToArgs(config) {
   for (let key in config) {
     let argName = camelCaseToDash(key);
     let argValue = config[key];
-    args.push(`--${argName}`);
-    args.push(argValue);
+
+    if (argValue !== false) {
+      args.push(`--${argName}`);
+
+      if (argValue !== true) {
+        args.push(argValue);
+      }
+    }
   }
   return args;
 }
