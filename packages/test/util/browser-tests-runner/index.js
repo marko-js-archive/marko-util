@@ -230,7 +230,7 @@ exports.run = function(allTests, options) {
 
   return startServer(filteredTests, options).then(result => {
     return puppeteer
-      .launch()
+      .launch(options.puppeteerOptions)
       .then(browser => Promise.all([browser.version(), browser.newPage()]))
       .then(([version, page]) => {
         return new Promise((resolve, reject) => {
